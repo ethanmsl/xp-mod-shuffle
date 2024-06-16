@@ -1,0 +1,7 @@
+[workspace]
+members = ["crate_*"]
+resolver = "2"
+
+[workspace.dependencies]
+derive_more = "0.99"
+include_dir = "0.7.3"

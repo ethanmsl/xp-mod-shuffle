@@ -1,0 +1,7 @@
+PROGRAM_NAME,ALIAS,PROGRAM_VERSION,PROGRAM_INSTALL
+docker,,,
+just,justfile,,"cargo install just"
+recolor,,,"cargo install recolor"
+rg,ripgrep,,"cargo install ripgrep"
+xsv,,,"cargo install xsv"
+hyperfine,,,"cargo install hyperfine"

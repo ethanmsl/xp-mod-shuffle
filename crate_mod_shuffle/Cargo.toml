@@ -1,0 +1,8 @@
+[package]
+name = "mod_shuffle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derive_more.workspace = true
+include_dir.workspace = true
