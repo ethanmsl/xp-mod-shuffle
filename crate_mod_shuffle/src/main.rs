@@ -1,7 +1,9 @@
 //! in-dev main.rs for mod_shuffle
 
-use mod_shuffle::hello_world::hello;
+use mod_shuffle::error::Result;
 
-fn main() {
-    hello();
+fn main() -> Result<()> {
+    println!("Hello world.");
+
+    Ok(())
 }
