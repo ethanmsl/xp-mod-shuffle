@@ -4,7 +4,7 @@ default-members = ["crate_mod_shuffle"]
 resolver = "2"
 
 [workspace.lints.rust]
-unsafe_code = "forbid"
+unsafe_code = { level = "forbid", priority = -1 }
 unused = "allow"
 dead_code = "allow"
 
