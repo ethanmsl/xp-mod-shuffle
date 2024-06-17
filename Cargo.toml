@@ -9,5 +9,6 @@ unused = "allow"
 dead_code = "allow"
 
 [workspace.dependencies]
+derive_builder = "0.20.0"
 derive_more = "0.99"
 include_dir = "0.7.3"

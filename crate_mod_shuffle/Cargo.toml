@@ -7,5 +7,6 @@ edition = "2021"
 workspace = true
 
 [dependencies]
+derive_builder.workspace = true
 derive_more.workspace = true
 include_dir.workspace = true
