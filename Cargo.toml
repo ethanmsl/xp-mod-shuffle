@@ -1,5 +1,6 @@
 [workspace]
 members = ["crate_*"]
+default-members = ["crate_mod_shuffle"]
 resolver = "2"
 
 [workspace.lints.rust]
