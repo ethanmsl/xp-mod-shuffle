@@ -2,6 +2,11 @@
 members = ["crate_*"]
 resolver = "2"
 
+[workspace.lints.rust]
+unsafe_code = "forbid"
+unused = "allow"
+dead_code = "allow"
+
 [workspace.dependencies]
 derive_more = "0.99"
 include_dir = "0.7.3"
